@@ -7,12 +7,12 @@ let status="start";
 let interval;
 function start(){
     s++;
-    if(s===59){
+    if(s===60){
         s=0;
         m++;
     }
 
-    if(m===59){
+    if(m===60){
         m=0;
         h++;
     }
